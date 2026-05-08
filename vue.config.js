@@ -130,7 +130,7 @@ const vueConfig = {
     port: 8000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://api.quantdinger.31330715.xyz/',
         ws: true,
         changeOrigin: true,
         timeout: 600000, // 10 minutes for long-running requests like backtest
