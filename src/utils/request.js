@@ -37,7 +37,7 @@ function getToken () {
 const request = axios.create({
   // API 请求的默认前缀
   // 生产环境应由 Nginx 处理，开发环境由 devServer proxy 处理
-  baseURL: 'https://api.quantdinger.31330715.xyz/',
+  baseURL: '/',
   timeout: 30000, // Default request timeout 30s (can be overridden per request)
   withCredentials: true // 允许携带 cookies
 })
